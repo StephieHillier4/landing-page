@@ -164,6 +164,27 @@ p {
 	margin: 2rem 0;
 	}
 
+.project-section {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.project-section div {
+	padding: 1rem;
+	box-shadow: 0px 0px 10px;
+	width: 250px;
+}
+
+.project-section p {
+	text-align: center;
+	
+}
+
+.project-section a {
+	text-decoration: none;
+}
 
 .legal-references li {
 	text-decoration: none;
