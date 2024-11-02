@@ -1,0 +1,219 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN NORMALIZE.CSS)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: black;
+	background-color: white;
+}
+
+h1, 
+h2, 
+h3, 
+h4,
+h5, 
+h6 {
+	margin: .5em 0;
+}
+
+.site-header {
+	display:
+}
+.site-header p {
+    background-color: rgb(215, 230, 235);
+	font-weight: bold;
+	padding-left: 0.25rem;
+	color: black;
+	margin-bottom: 0;
+}
+
+address {
+	justify-content: flex-start;
+    font-size: .8rem;
+    padding-left: 0.25rem;
+    font-weight: 400;
+	color: black;
+	background-color: rgb(215, 230, 235);
+	
+}
+
+.nav-menu {
+	justify-content: flex-end;
+	display: flex;
+	list-style-type: none;
+	text-decoration: none;
+	padding-right: 0.5rem;
+	gap: 1rem;
+	
+}
+
+
+.nav-menu a {
+	position: relative;
+	display: flex-start;
+	top: 0;
+	right: 0;
+	text-decoration: none;
+	line-height: 1rem;
+	color: black;
+	font-size: 1.5rem;
+	
+	
+}
+
+
+.page-header {
+	position: relative;
+}
+
+.page-header img {
+	display: block;
+	object-fit: cover;
+	min-height: 25rem;
+    opacity: 0.6;
+
+}
+
+
+h1 {
+	/* position: absolute;
+	top: 20%;
+	left: 0;
+	right: 0; */
+	z-index: 1;
+	margin: 0;
+	font-size: 3rem;
+	color: black;
+	text-align: center;
+	font-family: DefaultFont, sans-serif;
+}
+	
+.page-header h1 .special-word {
+	font-family: 'Pinyon Script', cursive;
+	font-weight: bold;
+	font-size: 5rem;
+}
+
+.special-word {
+	font-family: 'Pinyon Script', cursive;
+	font-weight: bold;
+}
+
+.page-header p {
+    /* position: absolute;
+	top: 35%;
+	left: 0;
+	right: 0; */
+	z-index: 1;
+	margin: 0;
+	font-size: 2rem;
+    font-weight: bolder;
+	color: black;
+	text-align: center;
+    background: none;
+}
+
+.header-container {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 4;
+}
+
+
+h2 {
+    font-size: 2rem;
+	font-style: italic;
+    
+}
+
+p {
+    font-size: 1.2rem;
+    
+}
+
+.combined-section {
+    background-color: rgb(215, 230, 235);
+	padding: 0.5rem 1rem;
+	margin: 2rem 0;
+	}
+
+
+.legal-references li {
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+}
+
+.legal-references a {
+	color: black;
+}
+
+
+.social-media li {
+	padding: 1rem;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	background-color: rgb(215, 230, 235);
+	
+}
+
+.social-media a{
+	color: black;
+	width: 100%;
+}
+
+footer ul {
+	justify-content: center;
+	display: flex;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* https://visitgreenland.com/da/wp-content/uploads/2019/06/tail-fin-of-humpback-in-front-of-iceberg-photo-by-julie-skotte-visit-greenland.jpg */
