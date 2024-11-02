@@ -39,9 +39,6 @@ h6 {
 	margin: .5em 0;
 }
 
-.site-header {
-	display:
-}
 .site-header p {
     background-color: rgb(215, 230, 235);
 	font-weight: bold;
@@ -79,9 +76,14 @@ address {
 	text-decoration: none;
 	line-height: 1rem;
 	color: black;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	
 	
+}
+
+@media (min-width: 50rem) {
+	.nav-menu a {font-size: 1.5rem;}
+	h1 {font-size: 3rem;}
 }
 
 
@@ -105,7 +107,7 @@ h1 {
 	right: 0; */
 	z-index: 1;
 	margin: 0;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: black;
 	text-align: center;
 	font-family: DefaultFont, sans-serif;
