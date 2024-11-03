@@ -162,7 +162,7 @@ p {
     background-color: rgb(215, 230, 235);
 	padding: 0.5rem 1rem;
 	margin: 2rem 0;
-	}
+}
 
 .project-section {
 	display: flex;
@@ -184,6 +184,10 @@ p {
 
 .project-section a {
 	text-decoration: none;
+	color: black;
+}
+
+.email a{
 	color: black;
 }
 
