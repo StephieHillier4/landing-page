@@ -184,16 +184,19 @@ p {
 
 .project-section a {
 	text-decoration: none;
+	color: black;
 }
 
 .legal-references li {
 	text-decoration: none;
 	list-style-type: none;
 	text-align: center;
+	color: black;
 }
 
 .legal-references a {
 	color: black;
+	padding: 1rem;
 }
 
 
@@ -217,7 +220,7 @@ footer ul {
 }
 
 .copyright {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
 }
 
