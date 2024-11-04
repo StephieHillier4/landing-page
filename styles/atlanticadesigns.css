@@ -21,6 +21,19 @@
 
 /* Typography
 --------------------------------------------- */
+
+/* .............HEAD>>>>>>>>>>>>>>>> */
+
+.site-header p {
+    background-color: rgb(215, 230, 235);
+	font-weight: bold;
+	padding-left: 0.25rem;
+	color: black;
+	margin-bottom: 0;
+}
+
+/* .......BODY..................................... */
+
 body {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 1rem;
@@ -37,14 +50,6 @@ h4,
 h5, 
 h6 {
 	margin: .5em 0;
-}
-
-.site-header p {
-    background-color: rgb(215, 230, 235);
-	font-weight: bold;
-	padding-left: 0.25rem;
-	color: black;
-	margin-bottom: 0;
 }
 
 address {
@@ -86,6 +91,7 @@ address {
 	h1 {font-size: 3rem;}
 }
 
+/* ............MAIN...................... */
 
 .page-header {
 	position: relative;
@@ -101,10 +107,6 @@ address {
 
 
 h1 {
-	/* position: absolute;
-	top: 20%;
-	left: 0;
-	right: 0; */
 	z-index: 1;
 	margin: 0;
 	font-size: 2rem;
@@ -125,10 +127,6 @@ h1 {
 }
 
 .page-header p {
-    /* position: absolute;
-	top: 35%;
-	left: 0;
-	right: 0; */
 	z-index: 1;
 	margin: 0;
 	font-size: 2rem;
@@ -190,6 +188,8 @@ p {
 .email a{
 	color: black;
 }
+
+/* .......................FOOTER................... */
 
 .legal-references li {
 	text-decoration: none;
